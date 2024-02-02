@@ -1,0 +1,37 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "UNDIAN_UMROH",
+    "description": "Sum API Documentation",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:1501/"
+    }
+  ],
+  "tags": "",
+  "paths": {},
+  "components": {
+    "schemas": {
+      "Response": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer"
+          },
+          "result": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "parameters": {}
+}
